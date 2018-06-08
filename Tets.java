@@ -22,7 +22,6 @@ if (args != null && args.length == 2) {
 inputFile = args[0];
 outputFile = args[1];
 }
-System.out.println("inputFile:" + inputFile + ",outputFile:" + outputFile);
 FileInputStream in = new FileInputStream(inputFile);
 XWPFDocument document = new XWPFDocument(in);
 File outFile = new File(outputFile);
